@@ -9,6 +9,7 @@
   src: url(./asseets/fonts/euclid-circular-a-cufonfonts/Euclid\ Circular\ A\ Bold.ttf);
 }
 
+
 /* ===== variable start ===== */
 :root {
   --secondary-color: #ffa300;
@@ -466,8 +467,8 @@ header .navbar {
 .websie_icon_div span {
   font-size: 16px;
   line-height: 22px;
-  font-family: 'Euclid Circular A';
-  font-weight: 400;
+  font-family: "Euclid Circular A";
+  font-weight: 400 !important;
   margin-left: 5px !important;
   color: var(--black-color) !important;
   /* font-size: 16px;
@@ -494,8 +495,8 @@ header .navbar {
 }
 
 .website_btn .custsom_btn {
-  font-family: 'Euclid Circular A';
-  font-weight: 400;
+  /* font-family: 'Euclid Circular A'; */
+  font-weight: 400 !important;
   background: #8919f9;
   color: #fff !important;
   font-size: 20px;
@@ -506,15 +507,15 @@ header .navbar {
   padding: 12px 35px;
   display: inline-block;
   border-radius: 100px;
-  transition: all 0.2s;
-  position: absolute;
+  transition: all 0.2s !important;
+  position: absolute !important;
   outline: none !important;
   border: none !important;
 }
 
 .webiste_img img {
-  width: 100% !important;
-  height: auto !important;
+  /* width: 100% !important;
+  height: auto !important; */
 }
 
 /* ===== form section ===== */
@@ -595,8 +596,8 @@ header .navbar {
 
 /* ===== goole section ===== */
 .goole_sec {
-  background-color: var(--white-color) !important;
-  padding: 40px 0px 90px 0px !important;
+  /* background-color: var(--white-color) !important; */
+  padding: 50px 0px 0px 0px !important;
 
 }
 
@@ -608,14 +609,62 @@ header .navbar {
   margin: 50px 0px !important;
   text-align: center !important;
 }
+
 .goole_right {
   padding-left: 50px !important;
 }
+
 .websie_icon_div .fa-check:hover {
   background-color: var(--white-color) !important;
   color: var(--primary-color) !important;
 }
 
+/* ===== local seo website ======  */
+.local_seo_sec {
+  padding: 0px !important;
+  background-color: var(--secondary-color) !important;
+}
+
+.locl_seo_sec {
+  padding-left: 90px !important;
+  margin-top: -10px !important;
+}
+
+/* ===== goole adds section ===== */
+.goole_main_div {
+  background-color: var(--white-color) !important;
+  padding: 40px 0px 90px 0px !important;
+
+}
+
+.goole_main_div h1 {
+  font-size: 40px;
+  font-family: "Euclid Circular A";
+  font-weight: 700;
+  color: var(--primary-color) !important;
+  margin: 50px 0px !important;
+  text-align: center !important;
+}
+
+/* ===== social media section ===== */
+.socail_media_sec {
+  background-color: #F7EEFF !important;
+  /* background-color: var(--secondary-color) !important; */
+  padding: 40px 0px 90px 0px !important;
+
+}
+.socail_media_icon {
+  padding-left: 0px !important;
+  margin-top: -100px !important;
+}
+.socail_media_icon h1 {
+  font-size: 40px;
+  font-family: "Euclid Circular A";
+  font-weight: 700;
+  color: var(--primary-color) !important;
+  margin: 50px 0px !important;
+  text-align: center !important;
+}
 /* ===== footer short section ===== */
 .short_footer {
   background-color: #000 !important;
