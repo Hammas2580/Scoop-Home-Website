@@ -121,6 +121,12 @@
     /* background-color: var(--secondary-color) !important; */
     /* margin-top: -10px !important; */
   }
+
+  /* ===== goole section ===== */
+  .goole_right {
+    padding-left: 0px !important;
+  }
+
 }
 
 /* ===== max-width: 600px ===== */
@@ -166,8 +172,6 @@
     width: 100% !important;
     color: var(--black-color) !important;
   }
-
-
 
   .content_wrapper {
     width: 100% !important;
@@ -278,8 +282,43 @@
     margin-left: 70px !important;
   }
 
+  /* ===== website section ===== */
+  .webiste_img {
+    padding-top: 120px !important;
+    text-align: center !important;
+  }
 
+  .website_left {
+    margin-top: -100px !important;
+  }
 
+  .website_btn {
+    /* text-align: center !important; */
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  /* ===== goole section ===== */
+  /* .goole_right {
+    padding-left: 10px !important;
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+    background-color: var(--secondary-color);
+    margin-top: 10px !important;
+  } */
+
+  .main_goole_sec {
+    padding: 15px !important;
+  }
+
+  .website_icon_main_div_2 {
+    padding: 15px !important;
+
+  }
+
+  .webiste_img {
+    margin-top: 80px !important;
+  }
 }
 
 /* ===== max-width 992px */
@@ -355,13 +394,14 @@
     margin-top: 10px !important;
 
   }
-/* ===== website section ===== */
-.website_left {
-  padding-left: 0px !important;
-  width: 100% !important;
-  /* background-color: var(--secondary-color) !important; */
-  /* margin-top: -10px !important; */
-}
+
+  /* ===== website section ===== */
+  .website_left {
+    padding-left: 0px !important;
+    width: 100% !important;
+    /* background-color: var(--secondary-color) !important; */
+    /* margin-top: -10px !important; */
+  }
 
 
 }
@@ -431,6 +471,20 @@
     /* height: auto !important; */
 
   }
+
+  .website_sec {
+    padding-bottom: 220px !important;
+  }
+
+  .webiste_img {
+    padding-top: 120px !important;
+  }
+
+  .goole_sec {
+    margin-top: -150px !important;
+    /* background-color: #ffa300 !important; */
+  }
+
 
 }
 

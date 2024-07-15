@@ -467,7 +467,7 @@ header .navbar {
   font-size: 16px;
   line-height: 22px;
   font-family: 'Euclid Circular A';
-  font-weight: 400 ;
+  font-weight: 400;
   margin-left: 5px !important;
   color: var(--black-color) !important;
   /* font-size: 16px;
@@ -511,6 +511,7 @@ header .navbar {
   outline: none !important;
   border: none !important;
 }
+
 .webiste_img img {
   width: 100% !important;
   height: auto !important;
@@ -590,6 +591,29 @@ header .navbar {
 
 .abc {
   margin-top: -220px !important;
+}
+
+/* ===== goole section ===== */
+.goole_sec {
+  background-color: var(--white-color) !important;
+  padding: 40px 0px 90px 0px !important;
+
+}
+
+.goole_sec h1 {
+  font-size: 40px;
+  font-family: "Euclid Circular A";
+  font-weight: 700;
+  color: var(--primary-color) !important;
+  margin: 50px 0px !important;
+  text-align: center !important;
+}
+.goole_right {
+  padding-left: 50px !important;
+}
+.websie_icon_div .fa-check:hover {
+  background-color: var(--white-color) !important;
+  color: var(--primary-color) !important;
 }
 
 /* ===== footer short section ===== */
