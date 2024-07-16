@@ -73,6 +73,10 @@
     font-size: 14px !important;
   }
 
+  .card_section {
+    margin-left: 0px !important;
+  }
+
   .card_wrapper {
     width: 100% !important;
   }
@@ -179,12 +183,21 @@
     background-color: var(--primary-color) !important;
   }
 
+  .row {
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+
   .navbar_mobile_view {
-    /* margin-left: -150px !important; */
+    margin-left: -100px !important;
     text-align: center !important;
     width: 100% !important;
-    /* padding: 0px 10px !important; */
+    padding-left: 0px !important;
     margin-top: 10px !important;
+  }
+
+  .nav-item {
+    padding-left: 0px !important;
   }
 
   .navbar_items {
@@ -212,6 +225,8 @@
     width: 100% !important;
     display: inline-block !important;
     padding-top: 80px !important;
+    padding-left: 0px !important;
+    margin-left: 0px !important;
   }
 
   .content_wrapper .main_heading h1 {
@@ -262,6 +277,11 @@
 
   .card_wrapper {
     width: 100% !important;
+  }
+
+  .card_section {
+    margin-left: 0px !important;
+
   }
 
   .card_wrapper .card_section {
@@ -328,7 +348,6 @@
   }
 
   .website_btn {
-    /* text-align: center !important; */
     display: flex !important;
     justify-content: center !important;
   }
@@ -367,11 +386,6 @@
     width: 100% !important;
   }
 
-  .card_img_2 img {
-    /* width: 100px !important;
-    height: 150px !important; */
-  }
-
 }
 
 /* ===== max-width 992px */
@@ -402,6 +416,8 @@
 
   .card_section {
     height: auto !important;
+    margin-left: 0px !important;
+
   }
 
   .footer_section {
@@ -474,6 +490,11 @@
     margin-left: 10px !important;
     display: flex !important;
     align-items: center !important;
+  }
+  .card_section {
+    /* height: auto !important; */
+    margin-left: 0px !important;
+
   }
 
   .card_wrapper .card_section {
@@ -570,12 +591,20 @@
 }
 
 /* ===== max-width: 1440px */
-@media (max-width:1400px) {
+@media (max-width: 1400px) {
 
   .navbar_items {
     margin-left: 100px !important;
     display: flex !important;
     align-items: center !important;
+  }
+  .navbar-nav {
+    margin-left: 130px !important;
+    padding: 10px !important;
+  }
+  .card_section {
+    margin-left: 0px !important;
+
   }
 
   /* ===== card_part_2 ===== */

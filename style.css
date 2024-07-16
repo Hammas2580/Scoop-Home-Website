@@ -205,6 +205,9 @@ header .navbar {
   margin-top: 30px !important;
   background-color: #F7EEFF;
   padding: 0px 0px 90px 0px;
+  display: flex !important;
+  justify-content: center !important;
+  background-color: var(--secondary-color) !important;
 }
 
 .card_wrapper h1 {
@@ -232,6 +235,7 @@ header .navbar {
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px;
+  margin-left: 30px !important; 
 }
 
 .card_section .card-title {
@@ -653,10 +657,12 @@ header .navbar {
   padding: 40px 0px 110px 0px !important;
 
 }
+
 .socail_media_icon {
   padding-left: 0px !important;
   margin-top: -100px !important;
 }
+
 .socail_media_icon h1 {
   font-size: 40px;
   font-family: "Euclid Circular A";
@@ -665,23 +671,27 @@ header .navbar {
   margin: 50px 0px !important;
   text-align: center !important;
 }
+
 /* ===== card part 2 ===== */
 .main_card_2 {
   padding: 50px 0px 90px 0px !important;
 }
+
 .main_app_des_content_container {
-    padding: 0 0 30px 0 !important;
-    margin-top: 50px !important;
+  padding: 0 0 30px 0 !important;
+  margin-top: 50px !important;
 }
+
 .main_app_des_content_container h1 {
   font-size: 40px !important;
   font-family: 'Euclid Circular A' !important;
-  color: #7317CF  !important;
+  color: #7317CF !important;
   font-weight: 600 !important;
   margin: 0px 0px 5px 0px !important;
   text-align: center !important;
 
 }
+
 .main_app_des_content_container span {
   font-family: 'Euclid Circular A' !important;
   font-size: 18px !important;
@@ -692,6 +702,7 @@ header .navbar {
   text-align: center !important;
 
 }
+
 /*  ===== card_2 section ===== */
 .des_content_card_container {
   text-align: left;
@@ -703,30 +714,96 @@ header .navbar {
   display: flex;
   margin: 30px 0 10px;
 }
+
 .card_img_2 {
   margin-top: 20px !important;
 }
+
 .card_img_2 img {
   width: 250px !important;
 }
+
 .card_2_img {
   display: none !important;
 }
+
 .main_cards_part_2 {
   margin-left: 10px !important;
   margin-top: 20px !important;
 }
+
 .main_cards_part_2 h4 {
   font-family: 'Euclid Circular A' !important;
   font-weight: 600 !important;
   color: var(--primary-color) !important;
 }
+
 .main_cards_part_2 p {
   font-family: 'Euclid Circular A' !important;
   font-weight: 600 !important;
   color: #1A1A1A !important;
 }
+
+/* ===== auestion and answer question ===== */
+.question_answer_sec {
+  background-color: #F7EEFF !important;
+  padding: 40px 0px 90px 0px !important;
+}
+
+.question_answer_sec h1 {
+  font-size: 40px;
+  font-family: 'Euclid Circular A';
+  color: #7317CF;
+  font-weight: 400;
+  margin: 0px 0px 5px 0px;
+  text-align: center !important;
+  margin-top: 50px !important;
+}
+
+
+.accordion-item {
+  margin-top: 15px !important;
+}
+
+.accordion-button {
+  /* background: #FFFFFF; */
+  padding: 20px 14px 20px 30px !important;
+  border: none !important;
+  background-color: var(--primary-color) !important;
+  box-shadow: none !important;
+  font-family: 'Euclid Circular A';
+  font-weight: 400 !important;
+  color: var(--white-color) !important;
+  font-size: 18px;
+  text-decoration: none;
+  outline: unset;
+  text-align: left;
+  border-radius: 10px !important;
+}
+
+
+.accordion-body h3 {
+  font-weight: 500 !important;
+  color: #1A1A1A !important;
+  font-size: 16px !important;
+  line-height: 22px !important;
+  width: 100% !important;
+  text-align: left !important;
+  margin: 0px !important;
+  padding: 30px 30px !important;
+}
+.accordion-body h3 ul li {
+  font-weight: 400;
+}
+/* ===== goole maps ===== */
+iframe {
+  width: 100% !important;
+  height: 353px !important;
+
+}
 /* ===== footer short section ===== */
+
+
 .short_footer {
   background-color: #000 !important;
   text-align: center !important;
