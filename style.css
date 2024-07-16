@@ -207,7 +207,6 @@ header .navbar {
   padding: 0px 0px 90px 0px;
   display: flex !important;
   justify-content: center !important;
-  background-color: var(--secondary-color) !important;
 }
 
 .card_wrapper h1 {
