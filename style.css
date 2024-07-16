@@ -848,3 +848,8 @@ transform: rotate(360deg) !important;
 .back_to_top .fa-angle-up {
   color: var(--white-color) !important;
 }
+.images_advertices {
+  margin-top: 70px !important;
+  text-align: center !important;
+  padding: 20px !important;
+}

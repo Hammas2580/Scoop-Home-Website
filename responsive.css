@@ -72,6 +72,9 @@
     padding: 17px 7px !important;
     font-size: 14px !important;
   }
+  .images_adds_section img {
+    margin-top: 50px !important;
+  }
 
   .card_section {
     margin-left: 0px !important;
@@ -260,6 +263,9 @@
     color: var(--black-color) !important;
     font-size: 14px !important;
     margin-left: 50px !important;
+  }
+  .images_adds_section img {
+    margin-top: 50px !important;
   }
 
   .form_button button {
@@ -479,6 +485,9 @@
   .card_img_2 img {
     width: 200px !important;
     height: 100px !important;
+  }
+  .images_adds_section img {
+    margin-top: 50px !important;
   }
 
 
