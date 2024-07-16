@@ -650,7 +650,7 @@ header .navbar {
 .socail_media_sec {
   background-color: #F7EEFF !important;
   /* background-color: var(--secondary-color) !important; */
-  padding: 40px 0px 90px 0px !important;
+  padding: 40px 0px 110px 0px !important;
 
 }
 .socail_media_icon {
@@ -667,7 +667,7 @@ header .navbar {
 }
 /* ===== card part 2 ===== */
 .main_card_2 {
-  /* padding: 50px 0px 90px 0px !important; */
+  padding: 50px 0px 90px 0px !important;
 }
 .main_app_des_content_container {
     padding: 0 0 30px 0 !important;
@@ -708,6 +708,9 @@ header .navbar {
 }
 .card_img_2 img {
   width: 250px !important;
+}
+.card_2_img {
+  display: none !important;
 }
 .main_cards_part_2 {
   margin-left: 10px !important;

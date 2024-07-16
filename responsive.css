@@ -127,18 +127,41 @@
 
   /* ===== goole adds section ===== */
   .goole_heading_section {
-    margin-top: 150px !important;
+    /* margin-top: 150px !important; */
   }
 
   /* ===== card_part_2 ===== */
   .card_img_2 img {
-    width: 1000px !important;
+    width: 100px !important;
     height: 150px !important;
   }
+
   .des_content_card_container {
     width: 100% !important;
   }
 
+}
+
+/* ==== max-width 500px ===== */
+@media (max-width:500px) {
+  .des_content_card_container {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .card_img_2 img {
+    display: none !important;
+  }
+
+  .card_2_img {
+    display: block !important;
+    width: 120px !important;
+    text-align: center !important;
+    display: flex !important;
+    justify-content: center !important;
+    text-align: center !important;
+    margin: 0px auto !important;
+  }
 }
 
 /* ===== max-width: 600px ===== */
@@ -343,10 +366,12 @@
   .des_content_card_container {
     width: 100% !important;
   }
+
   .card_img_2 img {
-    width: 1000px !important;
-    height: 150px !important;
+    /* width: 100px !important;
+    height: 150px !important; */
   }
+
 }
 
 /* ===== max-width 992px */
@@ -531,7 +556,7 @@
   }
 
   .socail_media_icon {
-    margin-top: 50px !important;
+    /* margin-top: 50px !important; */
   }
 
   /* ===== card_part_2 ===== */
