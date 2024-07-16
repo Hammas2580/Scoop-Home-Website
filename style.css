@@ -261,7 +261,10 @@ header .navbar {
   margin-top: 30px !important;
 
 }
-
+.card-body img {
+  /* transform:  translate(100,100) !important; */
+  /* transition: all 2.5s ease-in-out !important; */
+}
 /* ===== footer section ===== */
 .footer_section {
   background: #1D003A !important;
@@ -801,6 +804,18 @@ iframe {
 
 }
 /* ===== footer short section ===== */
+.footer-div ul li a:hover {
+  text-decoration: underline !important;
+}
+.icon_div .socail_name:hover {
+  text-decoration: underline !important;
+  color: var(--white-color) !important;
+
+}
+.fb_icon:hover {
+background-color: #337ab7 !important;
+transform: rotate(360deg) !important;
+}
 
 
 .short_footer {
@@ -819,4 +834,17 @@ iframe {
   margin-bottom: 0px !important;
   color: #fff !important;
   line-height: 26px !important;
+}
+.back_to_top {
+  background: #7317CF;
+  font-size: 25px;
+  padding: 0px 10px;
+  cursor: pointer;
+  color: #fff;
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+}
+.back_to_top .fa-angle-up {
+  color: var(--white-color) !important;
 }
