@@ -801,6 +801,7 @@ iframe {
   background-color: #337ab7 !important;
   transform: rotate(360deg) !important;
 }
+
 .fb_icon:hover {
   transform: rotate(360deg) !important;
 }

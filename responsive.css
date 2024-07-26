@@ -563,9 +563,9 @@
     border: 1px solid var(--white-color) !important;
   }
   .images_advertices {
-    margin-top: 0px !important;
-    padding: 0px !important;
-    padding: 10px !important;
+    margin-top: 50px !important;
+    padding-top: 0px !important;
+    /* padding: 0px !important; */
   }
 
   .navbar_img {
@@ -644,5 +644,7 @@
     height: 120px !important;
     margin-top: 10px !important;
   }
-
+.images_advertices {
+  /* padding-top: 170px !important; */
+}
 }
