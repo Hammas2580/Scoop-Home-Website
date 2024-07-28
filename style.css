@@ -6,6 +6,7 @@
 /* ===== goole fonts ===== */
 @font-face {
   font-family: "Euclid Circular A";
+  
   src: url(./asseets/fonts/euclid-circular-a-cufonfonts/Euclid\ Circular\ A\ Bold.ttf);
 }
 
@@ -188,6 +189,13 @@ header .navbar {
   padding-left: 50px !important;
   max-width: 100% !important;
 }
+.images_adds_section img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.images_adds_section:hover img {
+  transform: scale(1.1);
+}
 
 /* ===== card section ===== */
 .card_wrapper {
@@ -249,7 +257,32 @@ header .navbar {
 
 }
 
+/* ===== card animation for all images ===== */
+@keyframes upDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-40px);
+  }
+}
 
+.main_about_img, .webiste_img img {
+  animation: upDown 2.5s infinite;
+}
+img {
+  transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+.card_section {
+  transition: transform 0.5s ease-in-out;
+}
+.card_section:hover {
+  transform: scale(1.1);
+}
 
 /* ===== footer section ===== */
 .footer_section {
@@ -304,6 +337,23 @@ header .navbar {
   color: rgba(255, 255, 255, 0.7) !important;
   font-family: "Euclid Circular A" !important;
   font-weight: 500 !important;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  100% {
+    transform: rotate(360deg) scale(1.1);
+  }
+}
+
+.socail_icon a {
+  display: inline-block;
+}
+
+.socail_icon a:hover .fb_icon {
+  animation: rotate 1s linear infinite;
+  transform: scale(1.2);
 }
 
 /* ===== second div===== */
@@ -845,3 +895,29 @@ iframe {
   text-align: center !important;
   padding: 20px !important;
 }
+
+
+
+
+@keyframes zoomInOut {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.custsom_btn {
+  transition: all 0.3s ease;
+}
+
+.custsom_btn:hover {
+  animation: zoomInOut 0.6s ease-in-out;
+}
+
+
+
